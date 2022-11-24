@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="sandwich">
+            <img class="icon" src="src/images/sandwich.svg" alt="sandwich">
+        </div>
+        <div class="logo">
+            <img class="logo_icon" src="src/images/youtube_logo.svg" alt="logo">
+        </div>
+        <span class="country_code">CA</span>
+        <div class="empty_container" id="empty_container"></div>
+        <div class="search" id="search">
+            <input class="search_input" onfocusout="changeBarSize('small')" onfocus="changeBarSize('large');" type="text" placeholder="   Rechercher">
+        </div>
+        <div class="search_icon_container">
+            <div class="search_icon">
+                <img class="search_icon_image" src="src/images/search_icon.svg" alt="search">
+            </div>
+        </div>
+        <div class="empty_container2"></div>
+        <div class="microphone_logo">
+            <img class="icon" src="src/images/microphone_logo.svg" alt="microphone_logo">
+        </div>
+        <div class="empty_container3"></div>
+        <div class="setting_logo">
+            <img class="icon" src="src/images/settings_icon.svg" alt="setting_logo">
+        </div>
+        <div class="account_container">
+            <img class="icon_login" src="src/images/login_icon.svg" alt="login_icon">
+            <a>&nbspSign in</a>
+        </div>
+    </nav>
+    
+</body>
+<script src="src/js/script.js"></script>
+</html>

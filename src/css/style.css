@@ -1,0 +1,242 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    background-color: #0F0F0F;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+.navbar {
+    height: 56px;
+    display: flex;
+    padding-top: 7px;
+    padding-left: 9px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+
+.sandwich {
+    justify-content: center;
+    background-color: #0F0F0F;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+}
+
+.sandwich:hover{
+    background-color: hsl(0, 0%, 18.82%);
+}
+.icon {
+    padding: 8px; 
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    width: 90px;
+}
+.logo_icon {
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.country_code {
+    padding-left:14px;
+    padding-top: 5px;
+    color: #aaa;
+    font-size: 9px;
+}
+
+.search {
+    width: 27.5%;
+    height: 60%;
+}
+
+.empty_container {
+    width: 24.5%;
+}
+
+.empty_container2 {
+    width: .5%;
+}
+
+.empty_container3 {
+    width: 24%;;
+}
+
+.search_input {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    border-radius: 40px 0 0 40px;
+    border: hsl(0, 0%, 18.82%) 1px solid;
+    border-left: 0px;
+    background-color: hsl(0, 0%, 7%);
+    font-size: 16px;
+    font-weight: 400;
+    z-index: 1;
+    position: relative;
+}
+
+.search_input:focus {
+    outline-style: solid;
+    outline-color: #1C62B9;
+  }
+
+.search_icon_container {
+    
+    width: 3.5%;
+    height: 64%;
+}
+
+.search_icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    border-radius: 0 40px 40px 0;
+    border: hsl(0, 0%, 18.82%) 1px solid;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #222222;
+    justify-content: center;
+    top:55%;
+}
+
+.search_icon_image {
+    margin-top: 7px;
+    height: 25px;
+}
+
+.microphone_logo {
+    justify-content: center;
+    background-color: #0F0F0F;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: hsl(0, 0%, 9%);
+}
+
+.microphone_logo:hover{
+    background-color: hsl(0, 0%, 18.82%);
+}
+
+.account_container {
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    border-radius: 40px 40px 40px 40px;
+    border: hsl(0, 0%, 18.82%) 1.8px solid;
+    height: 30.5px;
+    width: 97px;
+    color: #3EA6FF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.icon_login {
+    width: 24px;
+    height: 24px;
+}
+
+.account_container:hover {
+    background-color: #263850;
+}
